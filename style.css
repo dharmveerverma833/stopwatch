@@ -1,0 +1,81 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url('OIP.jpeg');
+}
+
+.stopwatch{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+
+.timerDisplay{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+#stopBtn:hover{
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+#startBtn:hover{
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+#resetBtn:hover{
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+#lapBtn:hover{
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: var(--clr);
+    padding: 12px 24px;
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+} 
+    #laps {
+    margin-top: 0px;
+    font-weight: bold;
+    
+    
+}
+
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+    color: #ffffff;
+    font-style: oblique;
+}
+
+
+
